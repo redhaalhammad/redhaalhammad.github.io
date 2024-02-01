@@ -1,13 +1,57 @@
 <html>
-<!-- root of DOM -->
   <head>
-    <title>Thirsty</title>
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+      }
 
+      .video-container {
+        position: relative;
+        width: 80%;
+      }
+
+      video { 
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        font-size: 18px;
+        color: #777;
+        margin-bottom: 20px;
+      }
+    </style>
+    <title> Thirsty </title>
+  </head>
   <body>
-    <!-- All the content of the webpage -->
-    <h1>Thirsty</h1>
-    <h2> Did you drink enough water today?</h2>
+    <div class="title">Thirsty</div>
+    <div class ="subtitle">Did you drink enough water today?</div>
+
+    <div class=" video-container">
+      <video controls autoplay>
+        <source src="Redha_Masood_30MFF.mp4" type="video/mp4">
+      </video>
+    </div>
+</body>
+</html>
+
+
+    <!-- <h1>Thirsty</h1>
+    <h2> Did you drink enough water today?</h2> -->
     <!-- <h6>I am a subtitle</h6>
     <p>I am a paragraph of <b>text</b>.</p>
     <p>I am another <i>paragraph</i> of text.</p>
@@ -42,8 +86,4 @@
     <!-- <a href="http://duckduckgo.com"><img src="kitty.jpg" alt-text="what is the image of" /></a> -->
 
     <!-- video -->
-    <video width="480" height="270" controls>
-      <source src="Redha_Masood_30MFF.mp4" type="video/mp4">
-    </video>
-  </body>
-</html>
+  
