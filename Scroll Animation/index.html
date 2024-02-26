@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comic Demo</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Navigation bar -->
+	<div id="nav">
+		<!-- link to divs on the same page using their id names -->
+		<a href="#mountain"><div class="nav-btn" id="first-page"></div></a>
+		<a href="#first-text"><div class="nav-btn" id="second-page"></div></a>
+		<a href="#ocean"><div class="nav-btn" id="third-page"></div></a>
+		<a href="#second-text"><div class="nav-btn" id="fourth-page"></div></a>
+	</div>
+	<!-- 
+	Four full browser size sections:
+	1. Mountain
+	2. Text section
+	3. Ocean
+	4. Text section
+	 -->
+	<div id="scudetto">
+		<!-- Content to display inside the mountain div -->
+		<div id="flower-div">
+			<span id="flower-text">This is SSC Napoli
+				One of the most historic football clubs in Italy.</span>
+			<img id="flower" src="img/flower.png">
+		</div>
+	</div>
+	<div id="first-text" class="text-section">
+		<p class="text">Last year, during the 2022-23 Serie A season, SSC Napoli won their first league title since the 1980s and the third ever in the club's history.
+			The team outperformed the expectations of fans and journalists alike with the help of a new manager, some new signings and a striker in excellent form - Victor Osimhen.</p>
+	</div>
+	<div id="loss">
+		<!-- Content to display inside the ocean div -->
+		<div id="fish-div">
+			<img id="fish" src="img/seriea-trophy.png">
+			<span id="fish-text">Unfortunately, this season is a much different story</span>
+		</div>
+	</div>
+	<div id="second-text" class="text-section">
+		<p class="text"> After losing their manager and a key player from last season, Napoli has struggled to compete in the league this year.
+			They are currently on their third manager of the season and have fallen to 9th on the league table, leaving both fans and players frustrated - especially Victor Osimhen who is entering the height of his career.
+		</p>
+	</div>
+	<div id="victor-press"></div>
+	<!-- Victor div position is fixed on the bottom left corner of the web page -->
+	<div id="victor-div">
+		<span id="victor-text">Hi I'm Victor</span>
+		<img id="victor" src="img/victor1.png">
+	</div>
+	<div id="third-text" class="text-section">
+		<p class="text"> Now, it is all but guranteed that Victor - one of the club's all time best strikers - will leave Napoli at the end of the season.
+			This ends his journey with the Southern Italian club in tremendously anticlimactic fashion. 
+			While he is largely responsible for winning them their first league title in 40 years, fans can't help but feel that the young striker is leaving behind what could have been a historic career in Naples. 
+		</p>
+	<script src="script.js"></script>
+</body>
+</html>
