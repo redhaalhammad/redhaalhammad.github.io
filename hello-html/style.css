@@ -1,0 +1,112 @@
+body {
+    display: block;
+    flex-direction: column;
+    margin: 10px;
+    background-image: url('Water_Graphics.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* <!-- ///////////////////////////////// -->
+    <!-- Text Style -->
+<!-- ///////////////////////////////// --> */
+.title, .subtitle, .body_text {
+    font-family: 'Quicksand', Helvetica, sans-serif;
+    text-align: center;
+}
+
+.title {
+  font-size: 256px;
+  font-weight: light;
+  color: #FFB74D; /* Light Orange */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #FF8A65; /* Dark Orange */
+  margin-bottom: 50px;
+}
+
+.body_text {
+  font-size: 12px;
+  color: #FFB74D; /* Light Orange */
+  margin-top: 10px;
+  padding-left: 75px; /* Add left padding */
+  padding-right: 75px; /* Add right padding */
+}
+
+/* <!-- ///////////////////////////////// -->
+    <!-- Slideshow -->
+<!-- ///////////////////////////////// --> */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #carousel-container {
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+   
+  }
+  
+  #carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #prev-btn, #next-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #333;
+  }
+  
+  #prev-btn {
+    left: 10px;
+  }
+  
+  #next-btn {
+    right: 10px;
+  }
+  
+  
+
+/* <!-- ///////////////////////////////// -->
+    <!-- Video -->
+<!-- ///////////////////////////////// -->  */
+.video-container {
+    align-self: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.video {
+    position: static;
+    width: 20%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+}
