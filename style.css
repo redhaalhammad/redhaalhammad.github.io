@@ -2,8 +2,8 @@ body {
     font-family: "Karla", sans-serif;
 }
 
-main {
-    background-image: url("self-portrait.jpg");
+.main-home {
+    background-image: url("images/self-portrait.jpg");
     background-size: cover;
     background-position: center;
 }
